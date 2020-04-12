@@ -1,0 +1,14 @@
+{
+  "programming": {
+    "url": "commander",
+    "priority": "high"
+  },
+  "books": {
+    "url": "www,.wssss",
+    "priority": "low"
+  },
+  "Music": {
+    "url": "slavko",
+    "priority": "all"
+  }
+}
