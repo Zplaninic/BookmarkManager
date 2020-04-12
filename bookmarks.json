@@ -1,14 +1,28 @@
 {
-  "programming": {
-    "url": "commander",
-    "priority": "high"
-  },
-  "books": {
-    "url": "www,.wssss",
-    "priority": "low"
-  },
-  "Music": {
-    "url": "slavko",
-    "priority": "all"
-  }
+  "program": [
+    {
+      "url": "prvi",
+      "priority": "drugi"
+    },
+    {
+      "url": "slavko",
+      "priority": "kako"
+    }
+  ],
+  "cli": [
+    {
+      "url": "sks",
+      "priority": "sks"
+    },
+    {
+      "url": "ksks",
+      "priority": "sks"
+    }
+  ],
+  "react": [
+    {
+      "url": "ksks",
+      "priority": "  "
+    }
+  ]
 }

@@ -14,9 +14,15 @@ program
   .action(() => {
     prompt(newBookmarkPrompt)
       .then(({ theme, url, priority }) => {
-        const key = theme;
+        const key = theme.trim();
         const bookmarks = getBookmarks();
-        bookmarks[key] = { url, priority };
+        const newBookmark = { url, priority };
+        if (!bookmarks[key]) {
+          bookmarks[key] = [newBookmark];
+        } else {
+          bookmarks[key].push(newBookmark);
+        }
+
         addBookmark(bookmarks);
       });
   });
